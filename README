@@ -1,0 +1,10 @@
+This is an example of setting up an interrupt on an Arduino Uno.
+
+Pin 2 (0) is the interrupt input pin.
+
+Pin 12 - output
+Pin 13 - output
+
+This code toggles high/low on the two output pins when an interrupt is detected. When pin 12 is high, pin 13 is low and vice versa.
+
+A delay was added in the interrupt code for testing purposes only and is not necessary. 
